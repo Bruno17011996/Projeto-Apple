@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Loja Apple</title>
+  </head>
+  <body>
+    <div class="menu">
+      <img class="logo1" src="/img/logo (1).png" />
+      <ul>
+        <li>Mac</li>
+        <li>Iphone</li>
+        <li>Ipad</li>
+        <li>Watch</li>
+        <li>AirPods</li>
+        <li>Acessórios</li>
+        <li>Suporte</li>
+      </ul>
+    </div>
+    <div class="container-principal">
+      <div class="container-esquerda">
+        <h1>Iphone 14</h1>
+        <h2>Tão poderoso. Tão ao seu alcance.</h2>
+        <p>Em dois tamanhos perfeitos. Agora com um toque em Amarelo</p>
+        <h3>A partir de R$ 633,25/mês ou R$7,599* A Vista</h3>
+        <button>Comprar</button>
+        <p class="escolha-cor">Escolha sua cor:</p>
+        <div>
+          <button
+            onclick="TrocaCor('#f7da47'); TrocaImagem('/img/iphone-amarelo.png')"
+            class="amarelo troca-cor"
+          ></button>
+          <button
+            onclick="TrocaCor('#81a5c4'); TrocaImagem('/img/iphone-azul.png')"
+            class="azul troca-cor"
+          ></button>
+          <button
+            onclick="TrocaCor('#c1c1c1'); TrocaImagem('/img/iphone-branco.png')"
+            class="branco troca-cor"
+          ></button>
+          <button
+            onclick="TrocaCor('#272d33'); TrocaImagem('/img/iphone-preto.png')"
+            class="preto troca-cor"
+          ></button>
+          <button
+            onclick="TrocaCor('#850012'); TrocaImagem('/img/iphone-vemelho.png')"
+            class="vermelho troca-cor"
+          ></button>
+          <button
+            onclick="TrocaCor('#ede7f1'); TrocaImagem('/img/iphone-roxo.png')"
+            class="roxo troca-cor"
+          ></button>
+        </div>
+      </div>
+      <div class="circulo"></div>
+      <img class="Iphone" src="/img/iphone-amarelo.png" alt="iphone Amarelo" />
+    </div>
+  </body>
+  <script src="scripts.js "></script>
+</html>
